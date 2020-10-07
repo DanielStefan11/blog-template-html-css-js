@@ -1,0 +1,72 @@
+main {
+  background: url(../img/contact-bg.jpg) no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-content {
+  width: 500px;
+}
+
+#form-content h1 {
+  color: #fff;
+  text-align: center;
+}
+
+#form-content form {
+  display: flex;
+  flex-direction: column;
+}
+form input,
+form textarea,
+button {
+  margin: 1rem 0;
+  padding: 10px;
+}
+
+form input,
+form textarea {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #fff;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+#form-btn {
+  display: flex;
+  justify-content: center;
+}
+
+form button {
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1aa3ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #a30f2d;
+}
+
+/* Responsive Design Start */
+@media screen and (max-width: 620px) {
+  #form-content {
+    width: 300px;
+  }
+}
+/* REsponsive Design End */

@@ -1,0 +1,140 @@
+/* Category Info Start */
+#category-page-info {
+  text-align: center;
+  border-bottom: 2px solid #1aa3ff;
+}
+
+#category-page-info h1 {
+  margin: 2rem 0;
+  font-size: 3.5rem;
+  color: #1aa3ff;
+}
+
+#category-page-info p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #1aa3ff;
+  padding-bottom: 2rem;
+}
+
+#category-info-btn {
+  display: none;
+}
+/* Category Info End */
+
+/* Category Page Content Start */
+#category-page-content {
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-category-card {
+  margin: 2rem;
+  flex: 1 1 500px;
+  box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.3),
+    -10px 0px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+.article-category-card img {
+  width: 100%;
+}
+
+.article-category-info {
+  padding: 1rem;
+}
+
+.date-author-article {
+  margin: 0.75rem 0;
+}
+
+.date-author-article .fa-calendar-alt {
+  margin-right: 2rem;
+}
+
+.date-author-article i {
+  color: #000080;
+}
+
+.article-category-card:hover {
+  transform: scale(1.1);
+}
+/* Category Page Content End */
+
+/* Pagination Start */
+.pagination-container {
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.pagination-container a {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem 0.8rem 1rem;
+  font-weight: bolder;
+  color: #000080;
+  transition: all 0.3s ease;
+}
+
+.pagination-container a.active {
+  background-color: #000080;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.pagination-container a:hover {
+  background-color: #000080;
+  color: #fff;
+  border-radius: 10px;
+}
+/* Pagination End */
+
+/* RESPONSIVE DESIGN START */
+@media screen and (max-width: 620px) {
+  #category-page-info h1 {
+    font-size: 2rem;
+  }
+
+  #category-page-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article-category-card {
+    width: 300px;
+  }
+
+  #category-info-btn {
+    display: inline-block;
+    margin: 1rem 0;
+    background-color: #1aa3ff;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+  }
+
+  #category-info-more {
+    display: none;
+  }
+
+  /* Pagination Start */
+  .pagination-container {
+    margin: 0 0 3rem 0;
+  }
+
+  .pagination-container a {
+    font-size: 1rem;
+    margin: 0 0.2rem;
+    padding: 0.4rem 0.8rem 0.5rem 0.8rem;
+    font-weight: bolder;
+  }
+  /* Pagination End */
+}
+/* RESPONSIVE DESIGN END */

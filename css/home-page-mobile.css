@@ -1,0 +1,249 @@
+/* ALL PAGES */
+
+/* Tablet Start */
+@media screen and (max-width: 1070px) {
+  /* Header Start */
+  #social-media-header {
+    display: none;
+  }
+
+  #header-container {
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+  }
+  /* Header End */
+
+  /* Navbar Start */
+  .nav-ul {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-ul.show {
+    display: flex;
+  }
+
+  .nav-ul li {
+    padding: 0.5rem 1.8rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #mobile-search-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    padding: 0.3rem;
+  }
+
+  #mobile-search-bar {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    outline: none;
+    font-size: 1rem;
+    color: #1aa3ff;
+  }
+  /* Navbar End */
+
+  /* Recommanded Articles Start */
+  #second-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #editor-articles h2 {
+    text-align: center;
+  }
+
+  #articles-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-article-card h3 {
+    font-size: 1.6rem;
+  }
+  /* Recommanded Articles End */
+
+  /* Third Section/ Other Articles Start */
+  #third-section h2 {
+    text-align: center;
+  }
+
+  #other-articles-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+
+  #other-articles-2 {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  /* Third Section/ Other Articles End */
+
+  /* Footer Start */
+  #footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  #footer-content #copyright {
+    grid-column: 1;
+  }
+
+  #footer-content #description,
+  #footer-content #info {
+    border-bottom: 2px solid white;
+    padding-bottom: 1rem;
+  }
+  /* Footer End */
+
+  /* Share Buttons Start */
+  .share-buttons-content {
+    justify-content: flex-start;
+  }
+
+  .share-buttons-content h4 {
+    display: none;
+  }
+
+  .share-buttons-container {
+    margin-left: 0;
+  }
+  /* Share Buttons End */
+}
+/* Tablet End */
+
+/* Phone Start */
+@media screen and (max-width: 620px) {
+  /* Header Start */
+  #search-bar {
+    display: none;
+  }
+
+  #header-container #logo img {
+    width: 50px;
+    height: auto;
+  }
+
+  #header-container #logo h2,
+  #header-container #logo span {
+    font-size: 1.5rem;
+  }
+  /* Header End */
+
+  /* Navbar Start */
+  .nav-ul {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-ul.show {
+    display: flex;
+  }
+
+  .nav-ul li {
+    padding: 0.5rem 1.8rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  /* Navbar End */
+
+  /* Showcase Start */
+  #showcase #showcase-container {
+    display: grid;
+    grid-column: 1fr;
+    height: 30vh;
+    width: 500px;
+    align-items: center;
+  }
+
+  #showcase-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #showcase-content p {
+    display: none;
+  }
+
+  #showcase-content button {
+    font-size: 0.8rem;
+    padding: 0.7rem;
+    width: 100px;
+  }
+  /* Showcase End */
+
+  /* Recommanded Articles Start */
+  .small-cards .card {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Recommanded Articles End */
+
+  /* Third Section/Other Articles Start */
+  #third-section h2 {
+    text-align: center;
+  }
+
+  #other-articles-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  #other-articles-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .article-cards h4 {
+    font-size: 1.3rem;
+  }
+
+  #other-articles-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .section-3-bottom-articles h5 {
+    font-size: 1rem;
+  }
+  /* Third Section/Other Articles End */
+
+  /* Scroll Button Start */
+  #scroll-top-btn {
+    padding: 0.7rem;
+    right: 20px;
+  }
+  /* Scroll Button End */
+
+  /* Share Buttons Start */
+  .share-buttons-content {
+    justify-content: flex-start;
+  }
+
+  .share-buttons-content h4 {
+    display: none;
+  }
+
+  .share-buttons-container {
+    margin-left: 0;
+  }
+  /* Share Buttons End */
+}
+/* Phone End */
