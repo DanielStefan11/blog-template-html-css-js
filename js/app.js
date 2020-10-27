@@ -16,7 +16,6 @@ function scrollFunction() {
 window.onscroll = function () {
   scrollFunction();
 };
-// Scroll to Top Button End
 
 // Hamburger Menu Start
 const hamburger = document.getElementById("hamburger");
@@ -25,7 +24,6 @@ const navUl = document.getElementById("nav-ul");
 hamburger.addEventListener("click", () => {
   navUl.classList.toggle("show");
 });
-// Hamburger Menu End
 
 // Mobile Search Button Start
 const mobileSearchButton = document.querySelector("#mobile-search-btn");
@@ -40,7 +38,6 @@ function showSearchBar() {
 }
 
 mobileSearchButton.addEventListener("click", showSearchBar);
-// Mobile Search Button End
 
 // Category Read More Button Start
 const dots = document.querySelector("#category-info-dots");
@@ -60,4 +57,3 @@ function moreInfoCategory() {
 }
 
 readMoreButton.addEventListener("click", moreInfoCategory);
-// Category Read More Button End
